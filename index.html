@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Puppy Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f2e6; /* Light green */
+            color: #333;
+        }
+        header {
+            background-color: #4d774e; /* Forest green */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #4d774e; /* Forest green */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+        .puppy-photo, .puppy-video {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .puppy-photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #4d774e; /* Forest green border */
+        }
+        .puppy-video video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #4d774e; /* Forest green border */
+        }
+        .about {
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #b3c2b3; /* Light brownish-green */
+        }
+        .button-container {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .button-container a {
+            background-color: #4d774e; /* Forest green */
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .button-container a:hover {
+            background-color: #3b5e3b; /* Darker green */
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4d774e; /* Forest green */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Puppy Page!</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#photos">Photos</a>
+        <a href="#videos">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>My Puppies!</h2>
+            <p>Welcome to the page dedicated to my adorable puppies! Here you'll find information about my puppies. Everything from favorite activities, tricks, to personality traits. Stay tuned for more updates and stories.</p>
+        </section>
+        <section id="photos" class="puppy-photo">
+            <h2>Puppy Photo</h2>
+            <img src="pupppies.png" alt="Cute puppy photo">
+        </section>
+        <section id="videos" class="puppy-video">
+            <h2>Puppy Video</h2>
+            <video src="video.mp4" autoplay loop muted>
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section class="button-container">
+            <a href="content.html">Learn More</a>
+        </section>
+        <section id="contact" class="about">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please send an email to: <a href="mailto:youremail@example.com">puppiesareawesome@gmail.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Puppy Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
